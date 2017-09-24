@@ -3,4 +3,13 @@
   <groupId>SEAssignment1</groupId>
   <artifactId>DriverSystem</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <repositories>  
+    <repository>
+        <id>dropbox-mvn-repo</id>
+        <name>Reg-System</name>
+        <url>
+            https://www.dropbox.com/sh/t2mmqlkiq6ze7n2/AADMobFbNtADxeccjrvYhpira?dl=0
+        </url>
+    </repository>
+  </repositories>  
 </project>
