@@ -1,0 +1,21 @@
+language: java
+
+jdk:
+   - openjdk8
+
+branches:
+  only:
+    - master
+
+after_failure:
+   - mvn clean
+
+after_success:
+   - mvn clean
+   - mvn install
+   - mvn test
+
+notifications:
+  email:
+      recipients:
+         - johnshanie@gmail.com
