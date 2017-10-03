@@ -5,11 +5,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <repositories>  
     <repository>
-        <id>dropbox-mvn-repo</id>
+        <id>SE3assignment1</id>
         <name>Reg-System</name>
         <url>
-            https://www.dropbox.com/s/6uik514xpptel9b/RegSystem.jar?dl=0
+          https://www.dropbox.com/sh/eausde7hrqv6uie/AAAinmksenBFQ5HjCtugroUUa?dl=0
         </url>
     </repository>
-  </repositories>  
+  </repositories> 
 </project>
