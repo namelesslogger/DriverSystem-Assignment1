@@ -3,13 +3,17 @@
   <groupId>SEAssignment1</groupId>
   <artifactId>DriverSystem</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <repositories>  
-    <repository>
-        <id>SE3assignment1</id>
-        <name>Reg-System</name>
-        <url>
-          https://www.dropbox.com/sh/eausde7hrqv6uie/AAAinmksenBFQ5HjCtugroUUa?dl=0
-        </url>
+  <repositories>
+	<repository>
+	  <id>jitpack.io</id>
+	  <url>https://jitpack.io</url>
     </repository>
-  </repositories> 
+  </repositories>
+  <dependencies>
+	<dependency>
+	    <groupId>com.github.namelesslogger</groupId>
+	    <artifactId>RegSystem-SEAssignment1</artifactId>
+	    <version>-SNAPSHOT</version>
+	</dependency>
+  </dependencies>
 </project>
