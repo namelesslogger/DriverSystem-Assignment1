@@ -49,12 +49,14 @@ public class DriverMain {
 	}
 
 	public static void printResult(CourseProgramme programme){
-		System.out.println("Programme: " + programme.getCourseName() + " module : ");
+		System.out.println("Programme: " + programme.getCourseName());
 		for (Module module : programme.getModuleList()) {
-			System.out.println(module.getModuleName() + " students : ");
+			System.out.println(" module : " + module.getModuleName());
 			for (Student student : module.getStudentList()) {
-				System.out.println(student.getName());
+				System.out.print(" student : ");
+				System.out.print(student.getName() + "\n");
 			}
 		}
+		System.out.print("\n");
 	}
 }

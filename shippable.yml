@@ -7,13 +7,18 @@ branches:
   only:
     - master
 
+build:
+  ci:
+    #Run test and code coverage and output results to the right folder
+    - mvn clean cobertura:cobertura
+    - mvn test
+
 after_failure:
    - mvn clean
 
 after_success:
    - mvn clean
    - mvn install
-   - mvn test
 
 notifications:
   email:
